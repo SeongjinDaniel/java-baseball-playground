@@ -75,6 +75,9 @@ public class StringCalculator {
         return result;
     }
 
+    /**
+     * 사측 연산 계산
+     */
     private enum Operation {
         ADDITION('+', (x, y) -> x + y),
         SUBTRACTION('-', (x, y) -> x - y),
